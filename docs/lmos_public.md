@@ -1,56 +1,155 @@
-# lmos_public — 외부 공개용 원본 및 비공개 유지 규칙
+# **Living Mirror OS — Sync File**
 
-이 문서는 외부에 밀려도 되는 공개용 원본이다. 이 저장소에는 설명만 두고, 비밀과 위험 요소는 넣지 않는다. 위험 요소는 이 파일 밖에 두지 않는다.
+# **Generated 2026-10-26. Read by any of the four models cold.**
 
----
+## **THESIS**
 
-## 1. 이 저장소에 들어가는 것
+Prompt is the single source of truth. Harness, temperature, model choice, and output flow from it. Discernment — knowing what to include and exclude — rooted in self-knowledge and godly wisdom. AI agents do 80% of work; user owns final 20%. Anything requiring validation can never be superseded. One-shot accuracy is the ultimate success metric. User’s raw verbal ideation is the raw material that feeds prompt design.
 
-공개 저장소 `lmos_public`에는 아래만 들어간다.
+## **THE GAME: Handshake**
 
-- 소스 코드. 비밀, 토큰, 주소, 계정, 키가 들어 있지 않은 것.
-- 이 설명서.
-- 설치와 실행에 필요한 공개 설정 파일.
-- 테스트 중 비밀이 없는 것.
-- 비밀이 없는 예시 화면.
+Anonymous multiplayer social deduction. No login, no install, no IGN, no faces. Room codes only. Phone-first, responsive desktop for host config.
 
-위 목록에 없는 파일은 이 저장소에 들지 않는다.
+## **FOUR ARCHETYPES**
 
-## 2. 이 저장소에 들어가지 않는 것
+* Kingmaker: gives up the crown
 
-아래는 공개 저장소에 넣지 않는다. 값만 비워도 넣지 않는다. 이름만 적어도 넣지 않는다. 예시로도 넣지 않는다. 주석으로도 넣지 않는다.
+* Populist: gives up the crowd
 
-- API 키, 접근 토큰, 세션 토큰, 비밀번호, 비밀 키.
-- 비밀을 풀 수 있는 암호화 키. 개발용이라도 마찬가지다.
-- `.env`, `.env.local`, `.env.production`, `.env.development` 과 그 밖에 실제 값이 들어 있는 환경 파일.
-- 비밀 파일의 복사본. 이름을 `*.sample` 로 바꾸었다는 이유로 예외가 되지 않는다. 복사본에 값이 남아 있으면 그 파일도 비밀이다.
-- 사용자 계정, 이메일 주소, 전화번호, 결제 정보, 주소.
-- 비밀이 들어 있는 설정 파일과 백업 파일.
-- 운영 노트, 장애 기록, 보안 점검 기록, 고객 문의.
-- 이 저장소를 돌려도 비밀이 다시 생기지 않는 설명 문서. 그 설명은 여기 두지 않는다.
+* Shadow Broker: gives up the leverage
 
-예외는 없다. "한번만", "테스트용", "잠시", "나중에 지우기"는 예외가 아니다.
+* Idealist: gives up being right
 
-## 3. 예시와 주석도 같다
+## **TWELVE CHARACTERS**
 
-비밀을 예시 값으로 올리지 않는다. 예시는 나중에 진짜 값으로 바뀌기 쉽다. 예시를 보고 사람이 그 값을 따라 쓰기도 쉽다.
+Three subtypes each. Slots left blank for build-time invention.
 
-주석에 비밀을 적지 않는다. 주석은 검색된다. 주석은 복사된다. 주석은 삭제해도 기록에 남는다.
+## **NINE SCENARIOS (TRIADS)**
 
-코드 안에 비밀을 글자열로 쓰지 않는다. 비밀은 설정 파일에도 쓰지 않는다. 비밀은 화면 안내문에도 쓰지 않는다. 비밀은 이 설명에도 쓰지 않는다.
+Beginner / intermediate / advanced. 66-event canon exists (66 books of the Bible); nine load per room. 57 parked.
 
-비밀의 일부만 가려도 비밀이다. 앞 4글자, 뒤 4글자, 가운데 글자를 별로 바꾼 형태도 비밀이다.
+## **SEVEN LEVERS (CAPYBARAS)**
 
-## 4. 이 문서가 해야 하는 일과 하지 않는 일
+1. Heat — pressure before something boils over. Start low, simmer, never flash-fire.
 
-이 문서는 위의 금지 목록을 설명한다. 이 문서는 그 목록 안의 것을 이 저장소 안에 다시 쓰지 않는다.
+2. Boundary — who counts as inside.
 
-이 문서를 읽어도 비밀을 알아낼 수 없어야 한다. 이 문서를 복사해도 비밀이 따라와서는 안 된다. 이 문서는 공개 저장소와 같이 밖으로 나가도 되는 파일이다.
+3. Power — who thinks they lead.
 
-위험 요소를 이 파일에 적으면 이 파일 자체가 비공개 유지 대상이 된다. 그래서 적지 않는다.
+4. Silence — the one who waits. Costs Secret Elo to break.
 
-## 5. 확인
+5. Influence — soft moves that shift everything.
 
-공개 전에 저장소 전체를 검색한다. 위 2절의 항목이 파일 이름, 파일 내용, 주석, 설정 예시, 문서 예시 어디에도 없어야 한다. 하나라도 있으면 그 파일은 공개 저장소에 들지 않는다.
+6. Hidden — the thing nobody’s watching.
 
-검색은 사람이 한다. 검색 도구가 대신해 주지 않는다. 검색 결과는 이 파일에 적지 않는다.
+7. Presence — the big one, doing nothing, shifting the water level. CANNOT be targeted. No vote, no accusation, no lever points at it. Everything else is an action; presence is a state. Can shrink if the player starts performing again — desync made visible.
+
+## **SECRET ELO**
+
+Not skill. Truthfulness. Public words vs. surface actions. The machine/narrative engine knows the truth and keeps a scorecard per player. Spectrum: honest to dishonest. Tied to archetypes — a Shadow Broker’s truthfulness means something different than an Idealist’s. Trinity mapping: Secret Elo \= Holy Spirit. Narrator/secret server \= God the Father. Players in good standing \= Jesus followers. John the Baptist role \= the steward who points at truth without building the kingdom.
+
+## **SABOTEUR (HYBRID PATH — LOCKED)**
+
+Everyone starts clean. Event path can promote a clean player to saboteur mid-game when pressure peaks. Silent assignment. Server-only secret. Ledger does NOT record it. Caught by majority vote → prodigal seat opens: confess out loud or stay silent. Room doesn’t exile. It stops pretending. Redemption arc, not ban. Inspired by prodigal son structure and Esther.
+
+## **STATE BOUNDARIES (POKER ANALOGY — LOCKED)**
+
+* Refresh mid-round: delta sync only.
+
+* Outbreak: simultaneous broadcast, not staggered.
+
+* Disconnect during live action: bot takes over, scaled by room temperature and ELO.
+
+* Peace victory with lagging phone: frozen table, bell chime as cue. Consequence as mechanic.
+
+* Clients send intents, never state.
+
+* Poll payload splits: public snapshot \+ private delta per player.
+
+* Server-only secrets: saboteur truth, outbreak state, sacrifice window validity.
+
+* Nothing secret ships to the phone.
+
+## **INVARIANTS (LOCKED)**
+
+1. Imposter count starts at one, stacks to cap.
+
+2. Sacrifice is idempotent.
+
+3. Clock is server-owned.
+
+4. Room codes aren’t guessable.
+
+5. Ledger appends, doesn’t mutate.
+
+6. Clients never receive secret truth.
+
+7. Slow is fast.
+
+## **LEDGER**
+
+Append-only event log. Unified with prompt versioning. Diffs between prompt versions \= agents’ curriculum. Gaps flagged, not skipped.
+
+## **RATING LADDER (LOCKED)**
+
+X sealed at top, Easter-egg discoverable. S-plus through A-minus. Start at A. Soft floor A-minus. True bottom: sarcastic Master. Decimals to hundredths. Color and plus/minus distinguish levels. Builder mark: public rubric with half the items learned by playing.
+
+## **SUNRISE LOADING SCREEN**
+
+Desert gradient from I-10. Yellow novice, red intermediate, blue advanced, pink apocalypse. Default synced. Desync \= performance. Fracture: Rome to 1775 by collective truthfulness. Matrix beat: game admits it sees you.
+
+## **SOFT ENTRANCE (UX)**
+
+Host-only creation. Invitees accept or leave-on-read. Music before glow. Bells stack on join. Flashlight cursor. Five DUPR-mapped tiers. Easter eggs via room search. Builder checkmarks for demonstrated purpose.
+
+## **OREGON TRAIL FIVE ASSETS**
+
+1. The crossing — obstacle that defines the era.
+
+2. The roster — twelve characters in period clothes.
+
+3. The ledger — diary literal. Land too big to trust memory.
+
+4. The weather — heat lever in natural form.
+
+5. The destination — sea to shining sea.
+
+Resources \= weight. Freely given \= sacrifice. Traded \= ledger entry. Hoarded \= presence going quiet.
+
+## **MILESTONES**
+
+1. Room exists. (DONE)
+
+2. Host-invite flow, rating ladder, flashlight config. (DONE)
+
+3. Room goes live. Sunrise. Silence. Founding act. (DONE)
+
+4. First actions: trade, accusation, failed sacrifice. Rome/1775 branches. (DONE)
+
+5. Caught saboteur → prodigal seat. (DONE)
+
+6. Seven levers rewrite legal moves. Heat as simmer. (DONE)
+
+7. Resource economy. Oregon Trail skin. Five assets. (DONE)
+
+8. Peace victory. Four independent sacrifices. (DONE)
+
+## **OPEN SLOTS**
+
+Scenario contents. Time-bound number. Tech stack. Resources detail.
+
+## **PARKED**
+
+Docker fleets. ML tour. Cover image. Submission copy. Bell sound cue.
+
+## **NEXT MOVES**
+
+Paste one-shot. Read aloud first. Red-team cluster. Real container session. 66-day hike parallel.
+
+## **EDGE CASE CLUSTER**
+
+Timestamp trust, vote integrity, conflicting intents. 80% of bugs live here.
+
+## **SUCCESS METRIC**
+
+5 \- 10 real games fully played 
