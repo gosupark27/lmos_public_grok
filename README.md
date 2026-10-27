@@ -1,20 +1,12 @@
-# Handshake
+# lmos_public_grok
 
-게임 대기실. 음성 톡으로 스택을 정하고 같은 수를 내면 승리한다.
+Handshake — anonymous multiplayer trail game from Living Mirror OS.
 
-잠시 비공개. 로컬에서만 돌린다.
+Public source snapshot. Room codes only. Server owns secrets; clients send intents.
 
-## 로컬
+See `docs/lmos_public.md` for the sync file.
 
-```bash
+```
 npm install
 npm run dev
 ```
-
-브라우저에서 http://localhost:3000 을 연다.
-
-## 설명
-
-방 코드 6자리. 상대가 같은 코드를 넣으면 접속된다. 인원은 두 명이고, 스택은 1부터 100까지다. 승부는 맞춘 쪽이 가지고 진 쪽의 스택이 이동한다. 세 판정은 동점에 돌아간다.
-
-로비에서 방 코드를 복사해 친구에게 보낸다.
