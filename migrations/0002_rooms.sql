@@ -1,6 +1,6 @@
-CREATE TABLE IF NOT EXISTS rooms (
-  code TEXT PRIMARY KEY,
-  state_json TEXT NOT NULL,
-  revision INTEGER NOT NULL DEFAULT 0,
-  updated_at INTEGER NOT NULL
+create table if not exists rooms (
+  code text primary key,
+  version integer not null default 1,
+  state text not null,
+  updated_at timestamptz not null default now()
 );
